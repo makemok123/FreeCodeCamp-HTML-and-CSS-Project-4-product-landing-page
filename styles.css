@@ -9,12 +9,18 @@ header {
     justify-content: space-between;
     margin-top: 20rem;
 }
-
+/* header logo*/
 header div{
     display: grid;
     grid-template-columns: auto auto;
 }
 
+header div h1{
+    font-weight: bold;
+}
+
+
+/* header table of content */
 header > nav {
 display: grid;
 column-gap: 80rem;
