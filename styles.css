@@ -4,6 +4,11 @@
 }
 
 header {
-    display: inline-block;
+    display: flex;
+    position: sticky;
 }
 
+header > nav {
+display: grid;
+grid-template-columns: auto auto;
+}
