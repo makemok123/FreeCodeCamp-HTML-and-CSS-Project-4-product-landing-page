@@ -8,6 +8,11 @@ header {
     position: sticky;
 }
 
+header div{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
 header > nav {
 display: grid;
 column-gap: 10rem;
