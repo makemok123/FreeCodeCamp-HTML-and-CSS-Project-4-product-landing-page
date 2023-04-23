@@ -17,8 +17,12 @@ header div{
 
 header > nav {
 display: grid;
-column-gap: 100rem;
+column-gap: 80rem;
 grid-template-columns: auto auto auto;
 justify-content: end;
-margin-right: 100rem;
+margin-right: 80rem;
+}
+
+header nav a{
+    text-decoration: none;
 }
