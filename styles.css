@@ -2,12 +2,12 @@
     font-family: "Montserrat", sans-serif;
     font-size: 1px;
 }
-
+/* main-width */
 header {
     display: flex;
     position: sticky;
     justify-content: space-between;
-    margin-top: 20rem;
+    margin-top: 10rem;
 }
 /* header logo*/
 header div{
@@ -17,8 +17,8 @@ header div{
 
 header div h1{
     font-weight: bold;
-    font-size: 20rem;
-    margin-top: 0;
+    font-size: 15rem;
+    margin-top: 4rem;
     margin-left: 10rem;
 }
 
@@ -26,10 +26,9 @@ header div h1{
 /* header table of content */
 header > nav {
 display: grid;
-column-gap: 80rem;
-grid-template-columns: auto auto auto;
-justify-content: end;
-margin-right: 80rem;
+grid-template-rows: auto auto auto;
+margin-right: 60rem;
+text-align: center;
 }
 
 header nav a{
