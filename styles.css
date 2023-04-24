@@ -1,5 +1,5 @@
 *{
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1px;
     background-color:  #eee;
 }
@@ -15,13 +15,14 @@ header {
 header div{
     display: grid;
     grid-template-columns: auto auto;
+    column-gap: 10rem;
 }
 
 header div h1{
     font-weight: bold;
     font-size: 15rem;
     margin-top: 4rem;
-    font-family: "Playfair+Display", serif;
+    font-family: 'Playfair Display', serif;
 }
 
 
