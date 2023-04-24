@@ -3,7 +3,7 @@
     font-size: 1px;
     background-color:  #eee;
 }
-/* main-width 340px*/
+
 header {
     display: flex;
     position: sticky;
@@ -37,4 +37,45 @@ header nav a{
     text-decoration: none;
     color: #000;
     margin: 1rem 0;
+}
+
+
+
+/* min-width 340px*/
+@media screen and (min-width: 340px) {
+    header {
+        display: flex;
+        position: sticky;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10rem;
+    }
+    /* header logo*/
+    header div{
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 10rem;
+    }
+    
+    header div h1{
+        font-weight: bold;
+        font-size: 15rem;
+        margin-top: 4rem;
+        font-family: 'Playfair Display', serif;
+    }
+    
+    
+    /* header table of content */
+    header > nav {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    text-align: center;
+    }
+    
+    header nav a{
+        text-decoration: none;
+        color: #000;
+        margin: 1rem 0;
+    }
+    
 }
