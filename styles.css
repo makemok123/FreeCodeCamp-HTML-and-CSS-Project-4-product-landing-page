@@ -1,0 +1,119 @@
+*{
+    background-color:  #fdf5e9;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#header-img{
+    width: 150px;
+}
+
+#nav-bar{
+    align-items: end;
+}
+
+
+.nav-link{
+    margin-right: 12px;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#name-web{
+    font-size: 20px;
+}
+
+#email{
+    width: 200px;
+}
+
+#submit{
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: orange;
+    font-weight: bold;
+    border: 0;
+}
+
+#Features{
+    font-size: 20px;
+}
+
+i.fas{
+    font-size: 3rem;
+    margin-right: 1rem;
+    align-content: center;
+    color: orange;
+}
+
+.Features-list{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding-left: 4rem;
+    display: grid;
+    grid-template-columns: 2fr 6fr;
+    align-content: center;
+    grid-gap: 1px;
+    align-items: center;
+}
+
+.Features-detail > h1{
+font-size: 1rem;
+}
+
+.Features-detail > p{
+    font-size: 0.5rem;
+    }
+
+#video{
+    height: 200px;
+    margin-bottom: 1em;
+}
+
+#Pricing{
+    font-size: 10px;
+    display: flex;
+}
+
+.price-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+
+    padding: 1rem;
+    width: 8rem;
+}
+
+.trombone-name{
+    background-color: rgb(179, 178, 178, 0.5);
+    font-weight: bold;
+    height: 20px;
+    border-style: solid;
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+      }
+      
+}
+
+.one-piece{
+    display: grid;
+    grid-gap: 0;
+    border-style: solid;
+    margin-right: 20px;
+}
