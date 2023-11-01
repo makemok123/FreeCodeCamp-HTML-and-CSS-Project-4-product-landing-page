@@ -2,10 +2,17 @@
     background-color:  #fdf5e9;
 }
 
+body{
+    margin: 0;
+}
+
 #header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
     padding: 10px;
 }
 
@@ -78,42 +85,91 @@ font-size: 1rem;
     font-size: 0.5rem;
     }
 
+#How-It-Works{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #video{
     height: 200px;
-    margin-bottom: 1em;
+    margin-bottom: 1em;    
 }
 
 #Pricing{
     font-size: 10px;
     display: flex;
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .price-list{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-style: solid;
-
-    padding: 1rem;
-    width: 8rem;
 }
 
 .trombone-name{
     background-color: rgb(179, 178, 178, 0.5);
     font-weight: bold;
-    height: 20px;
-    border-style: solid;
-    .container {
-        display: flex;
-        justify-content: center;
-        align-items: center; 
-      }
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
       
 }
 
 .one-piece{
     display: grid;
     grid-gap: 0;
-    border-style: solid;
-    margin-right: 20px;
+    height: 150px;
+    width: 150px;
+    border-style:solid;
+    border-width: 0.5px;
+}
+
+.money{
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.detail{
+    text-align: center;
+}
+
+.price{
+    background-color: #ffa50065;
+}
+
+footer{
+    margin-top: 20px;
+    background-color: #d1cfcf;
+    padding-top: 10px;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: right;
+}
+
+footer a{
+    background-color: inherit;
+    padding: 0 10px 10px 10px;
+}
+
+footer div{
+    background-color: inherit;
+    color: black;
+    font-size: smaller;
+    padding: 10px;
+}
+
+@media screen and (max-width: 500px){
+
+    #Pricing{
+        flex-direction: column;
+    }
+    #header{
+        flex-direction: column;
+    }
 }
