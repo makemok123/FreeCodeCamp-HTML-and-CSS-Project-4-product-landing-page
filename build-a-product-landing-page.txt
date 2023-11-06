@@ -1,0 +1,296 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>จตุพร เกษมสัตย์ project 4</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <header id="header">
+        <img id="header-img"
+            src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
+            alt="original trombone">
+        <nav aria-label="nav" id="nav-bar">
+            <a href="#Features" class="nav-link">Features</a>
+            <a href="#How-It-Works" class="nav-link">How It Works</a>
+            <a href="#Pricing" class="nav-link">Pricing</a>
+        </nav>
+    </header>
+    <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <h1 id="name-web">Handcrafted, home-made masterpieces</h1>
+        <div id="e-mail"></div>
+        <input type="email" id="email" placeholder="Enter your email address" name="email">
+        <input type="submit" id="submit" value="get-started">
+    </form>
+        <div id="Features">
+            <div class="Features-list">
+                <i class="fas fa-fire"></i>
+                <div class="Features-detail">
+                    <h1>Premium Materials</h1>
+                <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of
+                    your purchase.</p>
+                </div>
+            </div>
+            <div class="Features-list">
+                <i class="fas fa-truck"></i>
+                <div class="Features-detail">
+                    <h1>Fast Shipping</h1>
+                <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free
+                    returns if you are not satisfied.</p>
+                </div>
+            </div>
+            <div class="Features-list">
+                <i class="fas fa-battery-full"></i>
+                <div class="Features-detail">
+                    <h1>Quality Assurance</h1>
+                <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test
+                    the pitch of your instrument.</p>
+                </div>
+                
+            </div>
+        </div>
+        <div id="How-It-Works">
+            <iframe id="video" src="https://www.youtube.com/embed/y8Yv4pnO7qc?si=tKcV2GgIM9QekqVJ"
+                title="Roman Carnival Overture Op. 9 for Five Trombones"></iframe>
+        </div>
+        <div id="Pricing">
+            <div class="one-piece">
+                <div class="trombone-name">TENOR TROMBONE
+                </div>
+                <div class="price-list">
+                    <div class="money">$600</div>
+                    <p class="detail">
+                        Lorem ipsum.<br>
+                        Lorem ipsum.<br>
+                        Lorem ipsum dolor.<br>
+                        Lorem ipsum.
+                    </p>
+                    <button class="price">select</button>
+                </div>
+            </div>
+            <div class="one-piece">
+                <div class="trombone-name">BASS TROMBONE
+                </div>
+                <div class="price-list">                
+                    <div class="money">$900</div>
+                    <p class="detail">
+                        Lorem ipsum.<br>
+                        Lorem ipsum.<br>
+                        Lorem ipsum dolor.<br>
+                        Lorem ipsum.
+                    </p>
+                    <button class="price">select</button>
+                </div>
+            </div>
+            <div class="one-piece">
+                <div class="trombone-name">VALVE TROMBONE
+                </div>
+                <div class="price-list">                
+                    <div class="money">$1200
+                    </div>
+                    <p class="detail">
+                        Plays similar to a Trumpet<br>
+                        Great for Jazz Bands<br>
+                        Lorem ipsum dolor.<br>
+                        Lorem ipsum.
+                    </p>
+                    <button class="price">select</button>
+                </div>                
+            </div>
+        </div>
+    <footer>
+        <a href="#Features">Privacy</a>
+        <a href="#Features">Terms</a>
+        <a href="#Features">Contact</a>
+        <div>Copyright 2016, Original Trombones</div>
+    </footer>        
+</body>
+
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+*{
+    background-color:  #fdf5e9;
+}
+
+body{
+    margin: 0;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    padding: 10px;
+}
+
+#header-img{
+    width: 150px;
+}
+
+#nav-bar{
+    align-items: end;
+}
+
+
+.nav-link{
+    margin-right: 12px;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#name-web{
+    font-size: 20px;
+}
+
+#email{
+    width: 200px;
+}
+
+#submit{
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: orange;
+    font-weight: bold;
+    border: 0;
+}
+
+#Features{
+    font-size: 20px;
+}
+
+i.fas{
+    font-size: 3rem;
+    margin-right: 1rem;
+    align-content: center;
+    color: orange;
+}
+
+.Features-list{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding-left: 4rem;
+    display: grid;
+    grid-template-columns: 2fr 6fr;
+    align-content: center;
+    grid-gap: 1px;
+    align-items: center;
+}
+
+.Features-detail > h1{
+font-size: 1rem;
+}
+
+.Features-detail > p{
+    font-size: 0.5rem;
+    }
+
+#How-It-Works{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#video{
+    height: 200px;
+    margin-bottom: 1em;    
+}
+
+#Pricing{
+    font-size: 10px;
+    display: flex;
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trombone-name{
+    background-color: rgb(179, 178, 178, 0.5);
+    font-weight: bold;
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+      
+}
+
+.one-piece{
+    display: grid;
+    grid-gap: 0;
+    height: 150px;
+    width: 150px;
+    border-style:solid;
+    border-width: 0.5px;
+}
+
+.money{
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.detail{
+    text-align: center;
+}
+
+.price{
+    background-color: #ffa50065;
+}
+
+footer{
+    margin-top: 20px;
+    background-color: #d1cfcf;
+    padding-top: 10px;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: right;
+}
+
+footer a{
+    background-color: inherit;
+    padding: 0 10px 10px 10px;
+}
+
+footer div{
+    background-color: inherit;
+    color: black;
+    font-size: smaller;
+    padding: 10px;
+}
+
+@media screen and (max-width: 500px){
+
+    #Pricing{
+        flex-direction: column;
+    }
+    #header{
+        flex-direction: column;
+    }
+}
+
+** end of undefined **
+
